@@ -1,0 +1,33 @@
+[in select(".site-road .main-paths")]
+CITY
+DISTRICT
+NEIGHBOURHOOD
+
+[in select(".property-details"); there can be more than one depending on if there are different properties characterised by 'data-tab' in ".rooms"]
+[general]
+REALTOR FEE
+COMPLETION YEAR
+TOTAL FLOORS
+PLOT SIZE (m^2)
+
+[for each property]
+TYPE (of building e.g. apartment, house etc.)
+PROPERTY SIZE (m^2)
+STOREYS
+BEDROOMS
+BATHROOMS
+FLOOR
+
+PRICE (from data-price from elements in ".rooms")
+
+[select(".features .features-block")]
+(Interior features):
+AIR CONDITIONING
+FURNISHED
+(Exterior features):
+CAR PARK
+(Heating features):
+CENTRAL HEATING
+GAS COMBI
+UNDERFLOOR HEATING
+UNDERFLOOR COOLING
