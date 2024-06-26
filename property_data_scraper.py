@@ -121,20 +121,11 @@ class PropertyDataScraper:
         return self.all_details_list
 
     def create_csv(self):
-        with open(CSV_FILE, "w", newline="", encoding="utf-8") as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=FIELDNAMES)
-
-            # Write header
-            writer.writeheader()
-
-            # Write rows
-            for row in self.all_details_list:
-                writer.writerow(row)
+        """Creates a new CSV file and writes the data using pandas."""
+        df = pd.DataFrame(self.all_details_list, columns=FIELDNAMES)
+        df.to_csv(CSV_FILE, index=False, encoding="utf-8")
 
     def update_csv(self):
-        with open(CSV_FILE, "a", newline="", encoding="utf-8") as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=FIELDNAMES)
-
-            # Write rows
-            for row in self.all_details_list:
-                writer.writerow(row)
+        """Appends the data to the existing CSV file using pandas."""
+        df = pd.DataFrame(self.all_details_list, columns=FIELDNAMES)
+        df.to_csv(CSV_FILE, index=False, encoding="utf-8", mode="a", header=False)
