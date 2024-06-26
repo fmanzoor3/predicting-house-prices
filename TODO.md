@@ -8,4 +8,4 @@
 
 -[x] When webscraping if a property doesnt have a feature its not going to be mentioned in its info; account for this to say that those features are N/A [this happens automatically actually]
 
--[] Get selenium to enter each page, scrape the info and then after each listing on a page to go to the next page
+-[x] Get selenium to enter each page, scrape the info and then after each listing on a page to go to the next page
