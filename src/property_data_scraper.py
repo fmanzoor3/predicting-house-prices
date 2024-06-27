@@ -32,7 +32,7 @@ FIELDNAMES = [
     "PRICE",
 ]
 
-CSV_FILE = "property_data.csv"
+CSV_FILE = "../data/property_data.csv"
 
 
 class PropertyDataScraper:
