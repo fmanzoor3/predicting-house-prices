@@ -29,6 +29,7 @@ FIELDNAMES = [
     "BATHROOM",
     "BALCONY",
     "FLOOR",
+    "PRICE",
 ]
 
 CSV_FILE = "property_data.csv"
@@ -101,8 +102,13 @@ class PropertyDataScraper:
             if len(spans) >= 2:
                 key = spans[0].getText().strip().upper()
                 value = spans[1].getText().strip()
-                if key in FIELDNAMES:
+                if key == "PROPERTY SIZE":
+                    details[key] = float(value.replace(" m²", ""))
+                elif key in FIELDNAMES:
                     details[key] = value
+        details["PRICE"] = (
+            float(property["data-price"].replace("€", "").replace(".", "")) / 1000
+        )
         return details
 
     def obtain_all_property_info(self, URL):
