@@ -93,7 +93,7 @@ The model's performance on the test data is as follows:
 | cat__DISTRICT_Kaş         |    1,544.89 |
 | cat__DISTRICT_Kemer       |       33.81 |
 
-### Visualizations
+### Visualisations
 
 - **Actual vs Predicted Prices**: This scatter plot shows the relationship between the actual and predicted house prices. A strong correlation indicates the model's effectiveness.
   ![Actual vs Predicted Prices](path/to/actual_vs_predicted_prices.png)
