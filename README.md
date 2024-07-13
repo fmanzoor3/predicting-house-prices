@@ -93,8 +93,24 @@ The model's performance on the test data is as follows:
 | cat__DISTRICT_Kaş         |    1,544.89 |
 | cat__DISTRICT_Kemer       |       33.81 |
 
+### Visualizations
+
+- **Actual vs Predicted Prices**: This scatter plot shows the relationship between the actual and predicted house prices. A strong correlation indicates the model's effectiveness.
+  ![Actual vs Predicted Prices](path/to/actual_vs_predicted_prices.png)
+
+- **Residuals vs Predicted Values**: This plot shows the residuals (differences between actual and predicted prices) against the predicted values. A random pattern suggests that the model's predictions are unbiased.
+  ![Residuals vs Predicted Values](path/to/residuals_vs_predicted_values.png)
+
+- **Distribution of Residuals**: This histogram shows the distribution of the residuals, with a mean of 0.0 and skewness of 3.8, indicating that most residuals are close to zero, but there are some larger errors.
+  ![Residuals Distribution](path/to/distribution_of_residuals.png)
+  
 ## Conclusion
-The model successfully predicts house prices in Turkey with reasonable accuracy. The analysis showed that features such as the number of rooms, presence of air conditioning, and district are significant predictors of house prices. Future work could explore more sophisticated models like Random Forests or Gradient Boosting to further improve accuracy.
+The model successfully predicts house prices in Turkey with reasonable accuracy. The analysis showed that the most significant predictors of house prices include:
+- The district of the property, with **Kaş** having a substantial positive impact and **Gazipaşa**, **Döşemealtı**, and **Alanya** having significant negative impacts.
+- The presence of **underfloor heating** and the number of **bathrooms**, both of which have strong positive influences on price.
+- Other important features include the presence of **central heating** and **air conditioning** as well as the number of **bedrooms**.
+
+Future work could explore more sophisticated models like Random Forests or Gradient Boosting to further improve accuracy, as well as consider additional features that may influence house prices.
 
 ## Usage
 To replicate the analysis and use the model to estimate house prices:
@@ -103,3 +119,10 @@ To replicate the analysis and use the model to estimate house prices:
    ```bash
    git clone https://github.com/fmanzoor3/predicting-house-prices.git
    cd predicting-house-prices
+   
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+3. 
+4. 
+5. 
