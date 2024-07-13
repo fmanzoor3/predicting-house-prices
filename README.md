@@ -64,3 +64,11 @@ The final multivariable regression model showed the following performance:
 
 ## Conclusion
 The model successfully predicts house prices in Turkey with reasonable accuracy. The analysis showed that features such as the number of rooms, presence of air conditioning, and district are significant predictors of house prices. Future work could explore more sophisticated models like Random Forests or Gradient Boosting to further improve accuracy.
+
+## Usage
+To replicate the analysis and use the model to estimate house prices:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/fmanzoor3/predicting-house-prices.git
+   cd predicting-house-prices
