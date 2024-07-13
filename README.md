@@ -46,7 +46,7 @@ The dataset was created by web scraping data from [Tekce Overseas Property](http
 The raw data was preprocessed to handle missing values, encode categorical variables, and normalize numerical features.
 
 ## Methodology
-1. **Web Scraping**: Used web scraping techniques and a web driver to collect data from the real estate website.
+1. **Web Scraping**: Used web scraping techniques and a web driver to collect data from the real estate website. The code for this web scraping is located in the `src` folder.
 2. **Exploratory Data Analysis (EDA)**: Analysed the distribution and relationships of the features and target variable (house price).
 3. **Data Splitting**: Split the dataset into training and testing sets to evaluate the model's performance.
 4. **Multivariable Regression**: Built a multivariable regression model to predict house prices.
