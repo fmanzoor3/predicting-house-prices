@@ -18,7 +18,7 @@ The objective of this project is to predict the price of a house in Türkiye bas
 ## Data
 The dataset was created by web scraping data from [Tekce Overseas Property](https://tekce.com/property-turkiye). A total of 3479 properties were scraped, each described by 21 features:
 
-    | Feature                  | Description                                                                          |
+| Feature                  | Description                                                                          |
 |--------------------------|--------------------------------------------------------------------------------------|
 | CITY                     | City where the property is located                                                   |
 | DISTRICT                 | District where the property is located                                               |
