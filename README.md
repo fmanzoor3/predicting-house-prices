@@ -55,11 +55,11 @@ The raw data was preprocessed to handle missing values, encode categorical varia
 
 ## Results
 
-### Train Model
+### Model Training
 The final multivariable regression model showed the following performance on the training data:
 - **Training Data R-squared**: 0.82
 
-### Test Model
+### Model Evaluation
 The model's performance on the test data is as follows:
 - **Test Data R-squared**: 0.75
 
