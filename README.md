@@ -52,15 +52,44 @@ The raw data was preprocessed to handle missing values, encode categorical varia
 6. **Price Estimation**: Used the final model to estimate property prices based on given characteristics.
 
 ## Results
-The final multivariable regression model showed the following performance:
-- Coefficients: (List significant coefficients and their interpretations)
-- Residuals: (Discuss the distribution and any patterns observed)
-- Model Performance: (Include metrics like R-squared, Mean Absolute Error, etc.)
 
-### Visualizations
-- Scatter plots showing predicted vs actual prices
-- Distribution of residuals
-- Importance of features
+### Train Model
+The final multivariable regression model showed the following performance on the training data:
+- **Training Data R-squared**: 0.82
+
+### Test Model
+The model's performance on the test data is as follows:
+- **Test Data R-squared**: 0.75
+
+#### Performance Metrics
+- **Mean Absolute Error (MAE)**: 124.58
+- **Mean Squared Error (MSE)**: 61530.24
+- **Root Mean Squared Error (RMSE)**: 248.05
+
+### Coefficients
+
+| Feature                   | Coefficient |
+|---------------------------|-------------|
+| num__AIR CONDITIONING     |       33.25 |
+| num__FURNISHED            |      -14.31 |
+| num__CAR PARK             |       -0.97 |
+| num__CENTRAL HEATING      |       46.73 |
+| num__GAS COMBI            |       13.12 |
+| num__UNDERFLOOR HEATING   |       98.50 |
+| num__UNDERFLOOR COOLING   |      -45.02 |
+| num__TOTAL FLOORS         |       10.19 |
+| num__PROPERTY SIZE        |        1.69 |
+| num__STOREYS              |      -33.62 |
+| num__BEDROOM              |       32.78 |
+| num__BATHROOM             |       65.09 |
+| num__BALCONY              |      -53.20 |
+| num__FLOOR                |       -4.19 |
+| cat__DISTRICT_Aksu        |     -103.83 |
+| cat__DISTRICT_Alanya      |     -166.99 |
+| cat__DISTRICT_Döşemealtı  |     -296.24 |
+| cat__DISTRICT_Gazipaşa    |     -586.94 |
+| cat__DISTRICT_Kaş         |    1,544.89 |
+| cat__DISTRICT_Kemer       |       33.81 |
 
 ## Conclusion
 The model successfully predicts house prices in Turkey with reasonable accuracy. The analysis showed that features such as the number of rooms, presence of air conditioning, and district are significant predictors of house prices. Future work could explore more sophisticated models like Random Forests or Gradient Boosting to further improve accuracy.
