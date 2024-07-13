@@ -18,27 +18,29 @@ The objective of this project is to predict the price of a house in Türkiye bas
 ## Data
 The dataset was created by web scraping data from [Tekce Overseas Property](https://tekce.com/property-turkiye). A total of 3479 properties were scraped, each described by 21 features:
 
-    1. CITY                city the property resides in
-    2. DISTRICT            district the property resides in
-    3. NEIGHBOURHOOD       neighbourhood the property resides in
-    4. AIR CONDITIONING    dummy variable (= 1 if property has air conditioning; 0 otherwise)
-    5. FURNISHED           dummy variable (= 1 if property is furnished; 0 otherwise)
-    6. CAR PARK            dummy variable (= 1 if property has car park; 0 otherwise)
-    7. CENTRAL HEATING     dummy variable (= 1 if property has central heating; 0 otherwise)
-    8. GAS COMBI           dummy variable (= 1 if property has gas combi; 0 otherwise)
-    9. UNDERFLOOR HEATING  dummy variable (= 1 if property has underfloor heating; 0 otherwise)
-    10. UNDERFLOOR COOLING dummy variable (= 1 if property has underfloor cooling; 0 otherwise)
-    11. REALTOR FEE         
-    12. TOTAL FLOORS        total floors of the building the property is in
-    13. COMPLETION DATE     completion date of the property
-    14. SUBTYPE             the type of property (e.g. ground floor apartment, detatched villa, etc.)
-    15. PROPERTY SIZE       size of property in m^2
-    16. STOREYS             number of storeys in the property
-    17. BEDROOM             number of bedrooms in the property
-    18. BATHROOM            number of bathrooms in the property
-    19. BALCONY             number of balconies in the property
-    20. FLOOR               the floor number of the property with respect to the building it is in (if applicable)
-    21. PRICE               price of the property in €1000's
+    | Feature                  | Description                                                                          |
+|--------------------------|--------------------------------------------------------------------------------------|
+| CITY                     | City where the property is located                                                   |
+| DISTRICT                 | District where the property is located                                               |
+| NEIGHBOURHOOD            | Neighbourhood where the property is located                                          |
+| AIR CONDITIONING         | Dummy variable (= 1 if the property has air conditioning; 0 otherwise)               |
+| FURNISHED                | Dummy variable (= 1 if the property is furnished; 0 otherwise)                       |
+| CAR PARK                 | Dummy variable (= 1 if the property has a car park; 0 otherwise)                     |
+| CENTRAL HEATING          | Dummy variable (= 1 if the property has central heating; 0 otherwise)                |
+| GAS COMBI                | Dummy variable (= 1 if the property has a gas combi; 0 otherwise)                    |
+| UNDERFLOOR HEATING       | Dummy variable (= 1 if the property has underfloor heating; 0 otherwise)             |
+| UNDERFLOOR COOLING       | Dummy variable (= 1 if the property has underfloor cooling; 0 otherwise)             |
+| REALTOR FEE              | Fee charged by the realtor                                                           |
+| TOTAL FLOORS             | Total number of floors in the building where the property is located                 |
+| COMPLETION DATE          | Completion date of the property                                                      |
+| SUBTYPE                  | Type of property (e.g., ground floor apartment, detached villa, etc.)                |
+| PROPERTY SIZE            | Size of the property in square meters (m²)                                           |
+| STOREYS                  | Number of storeys in the property                                                    |
+| BEDROOM                  | Number of bedrooms in the property                                                   |
+| BATHROOM                 | Number of bathrooms in the property                                                  |
+| BALCONY                  | Number of balconies in the property                                                  |
+| FLOOR                    | Floor number of the property within the building (if applicable)                     |
+| PRICE                    | Price of the property in thousands of euros (€1000's)                                |
 
 ### Data Preprocessing
 The raw data was preprocessed to handle missing values, encode categorical variables, and normalize numerical features.
