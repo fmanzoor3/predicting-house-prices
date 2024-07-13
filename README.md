@@ -105,7 +105,7 @@ The model's performance on the test data is as follows:
   ![Residuals Distribution](path/to/distribution_of_residuals.png)
   
 ## Conclusion
-The model successfully predicts house prices in Turkey with reasonable accuracy. The analysis showed that the most significant predictors of house prices include:
+The model successfully predicts house prices in Türkiye with reasonable accuracy. The analysis showed that the most significant predictors of house prices include:
 - The district of the property, with **Kaş** having a substantial positive impact and **Gazipaşa**, **Döşemealtı**, and **Alanya** having significant negative impacts.
 - The presence of **underfloor heating** and the number of **bathrooms**, both of which have strong positive influences on price.
 - Other important features include the presence of **central heating** and **air conditioning** as well as the number of **bedrooms**.
@@ -125,11 +125,11 @@ To replicate the analysis and use the model to estimate house prices:
    pip install -r requirements.txt
 3. **Run the Notebook:**
    
-  Open the Jupyter notebook Predict_Property_Prices.ipynb and run the cells to see the analysis and model training steps.
+    Open the Jupyter notebook Predict_Property_Prices.ipynb and run the cells to see the analysis and model training steps.
 
 4. **Estimate Prices:**
    
-  Use the trained model to estimate house prices by providing property features.
+    Use the trained model to estimate house prices by providing property features.
 
 5. **Repeat the Analysis for Different Cities:**
 
