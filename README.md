@@ -1,4 +1,4 @@
-# Data Analysis Project: Price Prediction Model Of Real Estate in Türkiye
+# Price Prediction Model Of Real Estate in Türkiye
 
 ## Overview
 This project aims to build a model that provides price estimates for houses in Türkiye based on various characteristics of the properties. The model considers data scraped from a real estate website to create a dataset of 3479 properties, each described by 21 features.
