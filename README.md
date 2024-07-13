@@ -123,6 +123,17 @@ To replicate the analysis and use the model to estimate house prices:
 2. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
-3. 
-4. 
-5. 
+3. **Run the Notebook:**
+  Open the Jupyter notebook Predict_Property_Prices.ipynb and run the cells to see the analysis and model training steps.
+
+4. **Estimate Prices:**
+  Use the trained model to estimate house prices by providing property features.
+
+5. **Repeat the Analysis for Different Cities:**
+  You can easily repeat the analysis for different cities by changing the city variable in the notebook. This allows for a flexible analysis that can be adapted to various    locations. Simply update the city variable at the beginning of the notebook to the desired city name.
+  ```python
+  city = 'Istanbul'  # Change this variable to the desired city
+
+By making this change, the entire analysis, from data collection to model training and evaluation, will be repeated for the specified city.
+7. 
+8. 
