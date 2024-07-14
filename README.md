@@ -96,7 +96,9 @@ The model's performance on the test data is as follows:
 ### Visualisations
 
 - **Actual vs Predicted Prices**: This scatter plot shows the relationship between the actual and predicted house prices. A strong correlation indicates the model's effectiveness.
-  ![Actual vs Predicted Prices](images/actual_vs_predicted_prices.png)
+  <p align="center">
+    <img src="images/actual_vs_predicted_prices.png" alt="Actual vs Predicted Prices">
+  </p>
 
 - **Residuals vs Predicted Values**: This plot shows the residuals (differences between actual and predicted prices) against the predicted values. A random pattern suggests that the model's predictions are unbiased.
   ![Residuals vs Predicted Values](path/to/residuals_vs_predicted_values.png)
