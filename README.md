@@ -10,7 +10,6 @@ This project aims to build a model that provides price estimates for houses in T
 4. [Results](#results)
 5. [Conclusion](#conclusion)
 6. [Usage](#usage)
-7. [License](#license)
 
 ## Introduction
 The objective of this project is to predict the price of a house in Türkiye based on its characteristics such as the number of rooms, whether it has air conditioning, if it is furnished, etc. Accurate price predictions can aid potential buyers and sellers in making informed decisions.
