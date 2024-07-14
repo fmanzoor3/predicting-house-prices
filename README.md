@@ -110,6 +110,20 @@ The model's performance on the test data is as follows:
     <img src="images/distribution_of_residuals.png" alt="Residuals Distribution">
   </p>
 
+### Example Prediction
+
+To demonstrate the model's practical application, here is an example prediction for a property with specific characteristics:
+
+#### Property Characteristics:
+- **City**: Antalya
+- **District**: Muratpaşa
+- **Neighbourhood**: Gebizli
+- **Furnished**: Yes
+- **Bedroom**: 2
+
+#### Predicted Price:
+Based on these characteristics, the model predicts the property price to be approximately €201,652.
+
 ## Conclusion
 The model successfully predicts house prices in Türkiye with reasonable accuracy. The analysis showed that the most significant predictors of house prices include:
 - The district of the property, with **Kaş** having a substantial positive impact and **Gazipaşa**, **Döşemealtı**, and **Alanya** having significant negative impacts.
