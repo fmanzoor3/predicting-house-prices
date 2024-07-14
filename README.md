@@ -34,7 +34,7 @@ The dataset was created by web scraping data from [Tekce Overseas Property](http
 | TOTAL FLOORS             | Total number of floors in the building where the property is located                 |
 | COMPLETION DATE          | Completion date of the property                                                      |
 | SUBTYPE                  | Type of property (e.g., ground floor apartment, detached villa, etc.)                |
-| PROPERTY SIZE            | Size of the property in square meters (m²)                                           |
+| PROPERTY SIZE            | Size of the property in square metres (m²)                                           |
 | STOREYS                  | Number of storeys in the property                                                    |
 | BEDROOM                  | Number of bedrooms in the property                                                   |
 | BATHROOM                 | Number of bathrooms in the property                                                  |
@@ -43,7 +43,7 @@ The dataset was created by web scraping data from [Tekce Overseas Property](http
 | PRICE                    | Price of the property in thousands of euros (€1000's)                                |
 
 ### Data Preprocessing
-The raw data was preprocessed to handle missing values, encode categorical variables, and normalize numerical features.
+The raw data was preprocessed to handle missing values, encode categorical variables, and normalise numerical features.
 
 ## Methodology
 1. **Web Scraping**: Used web scraping techniques and a web driver to collect data from the real estate website. The code for this web scraping is located in the `src` folder.
@@ -101,15 +101,15 @@ The model's performance on the test data is as follows:
   </p>
 
 - **Residuals vs Predicted Values**: This plot shows the residuals (differences between actual and predicted prices) against the predicted values. A random pattern suggests that the model's predictions are unbiased.
-    <p align="center">
+  <p align="center">
     <img src="images/residuals_vs_predicted_values.png" alt="Residuals vs Predicted Values">
   </p>
 
 - **Distribution of Residuals**: This histogram shows the distribution of the residuals, with a mean of 0.0 and skewness of 3.8, indicating that most residuals are close to zero, but there are some larger errors.
-      <p align="center">
+  <p align="center">
     <img src="images/distribution_of_residuals.png" alt="Residuals Distribution">
   </p>
-  
+
 ## Conclusion
 The model successfully predicts house prices in Türkiye with reasonable accuracy. The analysis showed that the most significant predictors of house prices include:
 - The district of the property, with **Kaş** having a substantial positive impact and **Gazipaşa**, **Döşemealtı**, and **Alanya** having significant negative impacts.
@@ -143,4 +143,4 @@ To replicate the analysis and use the model to estimate house prices:
     ```python
     chosen_city="Antalya" # Change this variable to the desired city
     ```
-    By making this change, the entire analysis, from data collection to model training and evaluation, will be repeated for the specified city.
+    By making this change, the entire analysis, from model training to evaluation, will be repeated for the specified city.
