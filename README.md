@@ -106,7 +106,9 @@ The model's performance on the test data is as follows:
   </p>
 
 - **Distribution of Residuals**: This histogram shows the distribution of the residuals, with a mean of 0.0 and skewness of 3.8, indicating that most residuals are close to zero, but there are some larger errors.
-  ![Residuals Distribution](path/to/distribution_of_residuals.png)
+      <p align="center">
+    <img src="images/residuals_vs_predicted_values.png" alt="Residuals Distribution">
+  </p>
   
 ## Conclusion
 The model successfully predicts house prices in Türkiye with reasonable accuracy. The analysis showed that the most significant predictors of house prices include:
