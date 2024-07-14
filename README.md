@@ -154,7 +154,7 @@ To replicate the analysis and use the model to estimate house prices:
 5. **Repeat the Analysis for Different Cities:**
 
   You can easily repeat the analysis for different cities by changing the city variable in the notebook. This allows for a flexible analysis that can be adapted to various locations. Simply update the chosen_city variable in the notebook to the desired city name.
-      ```python
-      chosen_city="Antalya" # Change this variable to the desired city
-      ```
+  ```python
+  chosen_city="Antalya" # Change this variable to the desired city
+  ```
   By making this change, the entire analysis, from model training to evaluation, will be repeated for the specified city.
