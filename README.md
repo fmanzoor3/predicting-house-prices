@@ -138,7 +138,7 @@ To replicate the analysis and use the model to estimate house prices:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/fmanzoor3/predicting-house-prices.git
-   cd predicting-house-prices
+   cd predicting-house-prices```
    
 2. **Install Dependencies:**
    ```bash
