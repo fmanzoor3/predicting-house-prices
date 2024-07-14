@@ -158,4 +158,4 @@ To replicate the analysis and use the model to estimate house prices:
     ```python
     chosen_city="Antalya" # Change this variable to the desired city
     ```
-  By making this change, the entire analysis, from model training to evaluation, will be repeated for the specified city.
+By making this change, the entire analysis, from model training to evaluation, will be repeated for the specified city.
