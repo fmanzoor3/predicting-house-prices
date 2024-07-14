@@ -145,7 +145,7 @@ To replicate the analysis and use the model to estimate house prices:
    pip install -r requirements.txt```
    
 3. **Run the Notebook**:
-   - Open the Jupyter notebook `Predict_Property_Prices.ipynb` and run the cells to see the analysis and model training steps.
+   - Open the Jupyter notebook [Predict_Property_Prices.ipynb](notebooks/Predict_Property_Prices.ipynb) and run the cells to see the analysis and model training steps.
 
 4. **Estimate Prices**:
    - Use the trained model to estimate house prices by providing property features.
